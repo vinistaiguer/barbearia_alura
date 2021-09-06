@@ -1,0 +1,217 @@
+:root {
+	--primari-color:#bbbbbb;
+	--secundary-color:#ffffff;
+    --tertiary-color: #C78C19;
+    --active-color: #00ff0d;
+
+
+	--background--beneficios: #11110F;
+	--marcacao-texto:hsl(0, 100%, 50%);
+    --link-texto: #000000;
+}
+
+header {
+    background-color: var(--primari-color);;
+}
+
+header h1 img {
+    height: 20vh;
+}
+
+.box-nav {
+    width: 75vw;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+	font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+}
+
+nav li {
+	font-weight: 700;
+	display: inline-block;
+    margin: 0 0 0 1.5vw;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:var(--link-texto);
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--tertiary-color);
+    text-decoration: underline;
+}
+
+/*Css Home page*/
+
+
+.banner {
+	width: 100%;
+	border-bottom: var(--tertiary-color) solid 0.4em;
+}
+
+/*CSS Sobre a barbearia*/
+
+.principal {
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--background--beneficios);
+	width: 100%;
+	height: 35vh;
+	border-top:  solid 0.6em;
+	border-bottom: var(--tertiary-color) solid 0.6em;
+}
+
+.principal-sobre {
+	text-align: center;
+	width: 40%;
+	position: relative;
+	float: left;
+	margin-top: 7vh;
+	margin-left: 5vw;
+}
+
+.principal-title {
+	font-size: 2em;
+	font-weight: 700;
+	padding-bottom: 0.5em;
+	color: var(--secundary-color);
+	text-shadow: 0.1em 0.1em 0.1em  var(--link-texto);
+}
+
+.principal-sobre p {
+	font-size: 1.2em;
+	font-weight: 500;
+	color: var(--secundary-color);
+	text-shadow: 0.1em 0.1em 0.1em  var(--link-texto);
+}
+
+#missao-principal {
+	color: var(--secundary-color);
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 7vh;
+	padding-bottom: 0.5em;
+	text-shadow: 0.1em 0.1em 0.1em  var(--link-texto);
+}
+
+.principal-missao {
+	text-align: center;
+	width: 40%;
+	position: relative;
+	float: right;
+	margin-right: 5vw;
+}
+
+em strong {
+	color: var(--tertiary-color);
+	font-weight: 900;
+	font-size: 1.17em;
+}
+
+.principal-missao p {
+	font-size: 1.2em;
+	font-weight: 500;
+	color: var(--secundary-color);
+	text-shadow: 0.1em 0.1em 0.1em  var(--link-texto);
+}
+
+/*Benefícios*/
+
+
+.beneficios {
+	font-family: 'Roboto', sans-serif;
+}
+
+.beneficios-title {
+	font-size: 2rem;
+	font-weight: 900;
+	text-align: center;
+	padding: 1em;
+}
+
+.itens-img-beneficios{
+	display: flex;
+	justify-content: space-between;
+}
+
+.img-beneficios {
+	width: 35%;
+	margin-right: 10%;
+	margin-left: 5%;
+	margin-bottom: 6vh;
+	border: var(--tertiary-color) 0.5em solid;
+	border-radius: 0.5em;
+	background-color: var(--tertiary-color);
+}
+
+.div-ul {
+	width: 35%;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.itens {
+	font-size: 1.8em;
+	font-weight: 500;
+	padding-bottom:1.6em;
+}
+
+/*Video*/
+
+.video{
+	background-image: url(./img/bg.jpg);
+	padding: 6em 30%;
+}
+
+/*Mapa*/
+
+.mapa-endereco{
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--tertiary-color);
+	
+}
+
+.mapa{
+	margin-right: 5%;
+	margin-left: 10%;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+	border: var(--background--beneficios) 0.5em solid;
+	border-radius: 0.5em;
+	background-color: var(--background--beneficios);
+}
+
+.endereco{
+	font-size: 1.7em;
+	font-weight: 900;
+	margin-right: 10%;
+	padding-top: 17%;
+	background-color: var(--tertiary-color);
+}
+
+.mapa-endereco h3 {
+	text-align: center;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    background: url(./img/bg.jpg);
+    padding: 5vh 0;
+}
+
+.copyrigth {
+    color: var(--secundary-color);
+
+}

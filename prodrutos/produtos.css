@@ -1,0 +1,114 @@
+:root{
+	--primari-color:#bbbbbb;
+	--secundary-color:#ffffff;
+    --tertiary-color: #C78C19;
+    --active-color: #00ff0d;
+
+	--marcacao-texto:hsl(0, 100%, 50%);
+    --link-texto: #000000;
+}
+
+header{
+    background-color: var(--primari-color);;
+}
+
+header h1 img{
+    height: 20vh;
+}
+
+.box-nav{
+    width: 75vw;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 8vh;
+    right: 0;
+}
+
+nav li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 0 0 1.5vw;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:var(--link-texo);
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--tertiary-color);
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 75vw;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 0.2rem var(--link-texto);
+    border-radius: 1rem;
+}
+
+.produtos li:hover{
+    border-color: var(--tertiary-color);
+}
+
+.produtos li:hover h2{
+    font-size: 5vh;
+    color: var(--tertiary-color);
+}
+
+.produtos li:active{
+    border-color: var(--active-color);
+}
+
+.produtos h2{
+    font-size: 4.5vh;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.produtos li:hover p{
+    color: var(--tertiary-color);
+}
+
+.produto-descricao{
+    font-size: 3vh;
+    font-weight:500;
+}
+
+.produto-preco{
+    font-size: 4.4vh;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: url(/img/bg.jpg);
+    padding: 5vh 0;
+}
+
+.copyrigth{
+    color: var(--secundary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
